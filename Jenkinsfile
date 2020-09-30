@@ -16,7 +16,8 @@ spec:
   - name: gradle
     image: gradle:6.6.1-jdk8
     command:
-    - echo
+    - sleep
+    - 200
     tty: true
 """
         }
